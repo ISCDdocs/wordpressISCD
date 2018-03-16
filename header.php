@@ -52,7 +52,7 @@
 
 	<!-- logo -->
 	<div id="logo">
-		<a href="http://iscd.upmc.fr"><img style="width:265px;" id="logoimg" src=""></img></a>
+		<a href="<?php echo esc_url( home_url( '/' ) ); ?>"><img style="width:265px;" id="logoimg" src=""></img></a>
 		<script>
 			// Tableau associatif classe / source du logo
 			var _logos = new Object();
@@ -96,7 +96,7 @@
 	?>
 	<!-- ... et on les affiche -->
 	<span>
-		<a href="http://iscd.upmc.fr/index.php/events">
+		<a href="<?php echo esc_url( home_url( '/' ) ); ?>index.php/events">
 			<i id="news" class="icon fa fa-newspaper-o" style="font-size:1.5em;"></i>
 		</a>
 	</span>
@@ -128,17 +128,17 @@
 
 	<!-- Icones pour intranet, plateforme et contact -->
 	<span>
-		<a href="http://iscd.upmc.fr/index.php/about/contact/" title="contact">
+		<a href="<?php echo esc_url( home_url( '/' ) ); ?>index.php/about/contact/" title="contact">
 			<i id="contact" class="icon fa fa-envelope-o" style="font-size:1.5em;"></i>
 		</a>
 	</span>
 	<span>
-		<a href="http://iscd.upmc.fr/index.php/intranet/" title="intranet">
+		<a href="<?php echo esc_url( home_url( '/' ) ); ?>index.php/intranet/" title="intranet">
 			<i id="intranet" class="icon fa fa-user-circle-o" style="font-size:1.5em;"></i>
 		</a>
 	</span>
 	<span>
-		<a href="http://iscd.upmc.fr/index.php/expertise/mesu/" title="platform">
+		<a href="http://hpcave.upmc.fr" title="platform">
 			<i id="platforms" class="icon fa fa-microchip" style="font-size:1.5em;"></i>
 		</a>
 	</span>

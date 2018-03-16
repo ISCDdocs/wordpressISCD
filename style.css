@@ -94,7 +94,6 @@ button{
 }
 
 /* 1.2 - Menu */
-
 #mainButton{
   position:fixed;
   top:30px;
@@ -155,15 +154,17 @@ button{
 .buttonLight{color:#ccc; transition:0.3s;}
 .buttonLight:hover{color:#fff; transition:0.3s;}
 
-#menu-item-45{background-color:#00597c;}
-#menu-item-46{background-color:#9c242f;}
-#menu-item-105{background-color:#72a94f;}
-#menu-item-4059{background-color:#e6540e;}
-#menu-item-4060{background-color:#7d6855;}
+#menu-item-5811{background-color:#00597c;}
+#menu-item-5812{background-color:#9c242f;}
+#menu-item-5813{background-color:#72a94f;}
+#menu-item-5814{background-color:#e6540e;}
+#menu-item-5815{background-color:#7d6855;}
 
 
 #mainMenu{
-  position:fixed;top:0;right:0;
+  position:fixed;
+  top:0;
+  right:0;
   height:100vh;
   max-width:50px;
   z-index:999;
