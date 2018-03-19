@@ -2,4 +2,4 @@
 
 ![Theme screenshot](screenshot.png "Screenshot")
 
-More information about the website management (backup, user management, theme development, news submitting, intranet...) can be found in the [associated wiki](https://github.com/ISCDtoolbox/wordpress/wiki).
+Plus d'informations sur la réinstallation du thème et son développement sont présentes sur la [page dédiée](https://iscddocs.github.io/docs/iscdupmc/theme.md).
